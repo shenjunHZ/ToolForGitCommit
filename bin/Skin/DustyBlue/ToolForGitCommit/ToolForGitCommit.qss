@@ -1,0 +1,98 @@
+QPushButton#m_btnAdd
+{
+	width:170px;
+	height:160px;
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-n.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+	font-size:12px;
+}
+QPushButton#m_btnAdd:hover
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-h.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #ffffff;
+    outline: none;   
+}
+QPushButton#m_btnAdd:pressed
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-p.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+}
+QPushButton#m_btnAdd:disabled
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-d.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #bbbbbb;
+    outline: none;
+}
+
+
+QPushButton#m_btnModify
+{
+	width:170px;
+	height:160px;
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-n.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+	font-size:12px;
+}
+QPushButton#m_btnModify:hover
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-h.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #ffffff;
+    outline: none;   
+}
+QPushButton#m_btnModify:pressed
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-p.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+}
+QPushButton#m_btnModify:disabled
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-d.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #bbbbbb;
+    outline: none;
+}
+
+
+
+QPushButton#m_btnDel
+{
+	width:170px;
+	height:160px;
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-n.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+	font-size:12px;
+}
+QPushButton#m_btnDel:hover
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-h.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #ffffff;
+    outline: none;   
+}
+QPushButton#m_btnDel:pressed
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-p.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #eeeeee;
+    outline: none;
+}
+QPushButton#m_btnDel:disabled
+{
+	border-image: url(./Skin/DustyBlue/DSGui/Button/btn-d.png) 2 2 2 2;
+	border-width: 2px 2px 2px 2px;
+	color: #bbbbbb;
+    outline: none;
+}

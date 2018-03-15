@@ -4,15 +4,19 @@
 var args = WScript.Arguments; // 钩子脚本被调用时，由Tortoisegit传入的参数  
 var list = args(0); // 提交列表临时文件路径  
 var message = args(1); // 日志消息临时文件路径  
-var cwd = args(2); // 脚本执行的当前工作目录路径  
+var cwd = args(2); // the .git dir
   
 // call exe
+pos = cwd.lastIndexOf("\\");
+cwd = cwd.substring(0, pos);
+
 var objShell = new ActiveXObject("wscript.shell");  
-objShell.run(".\\toolBin\\ToolForGitCommit.exe", 1, true); // wait for result
+// objShell.Popup(cwd);
+objShell.run(cwd + "\\toolBin\\ToolForGitCommit.exe", 1, true); // wait for result
 
 // 使用FSO在当前工作目录中查找是否存在“readme.txt”文件  
 var fso = new ActiveXObject('Scripting.FileSystemObject');  
-var readme = cwd + '//toolBin//MessageInfo.txt';  
+var readme = cwd + '\\toolBin\\MessageInfo.txt';  
 if (fso.FileExists(readme)) {  
     // 使用当前系统默认的编码方式(ANSI)读取文本文件  
     var ts = fso.OpenTextFile(readme, 1, false);  
